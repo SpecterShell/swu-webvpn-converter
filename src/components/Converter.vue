@@ -1,5 +1,5 @@
 <template>
-  <v-row justify="space-between" align="center" class="mx-4 mx-lg-20 mx-xl-20"  >
+  <v-row justify="space-between" align="center" class="mx-4 mt-12 mt-lg-0 mt-xl-0"  >
     <v-col lg="6" xl="6" cols="12"  >
       <v-row class="text-h4 mb-4">
         <h4>
