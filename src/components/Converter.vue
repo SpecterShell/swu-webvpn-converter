@@ -3,15 +3,15 @@
     <v-row class="text-h4 mb-4">
       <h4>
         <v-icon class="mr-2" color="primary">mdi-link-variant</v-icon
-        ><a href="https://webvpn.bit.edu.cn/" target="_blank">WEBVPN</a> URL
+        ><a href="http://webvpn.swu.edu.cn/" target="_blank">WEBVPN</a> URL
         Converter
       </h4>
     </v-row>
 
     <v-row>
       <p class="text--secondary mb-8">
-        🥑 <b>WEBVPN Converter</b> can help you convert a BIT local area network
-        URL into its corresponding WEBVPN URL so that you can access BIT local
+        🥑 <b>WEBVPN Converter</b> can help you convert a SWU local area network
+        URL into its corresponding WEBVPN URL so that you can access SWU local
         resources from anywhere in the world.
       </p>
     </v-row>
@@ -20,7 +20,7 @@
       <v-text-field
         label="Original URL"
         v-model="originalUrl"
-        placeholder="http://jwms.bit.edu.cn"
+        placeholder="http://jw.swu.edu.cn"
       />
       <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
@@ -43,7 +43,7 @@
         label="WEBVPN"
         v-model="webvpnUrl"
         readonly
-        placeholder="https://webvpn.bit.edu.cn/..."
+        placeholder="http://webvpn.swu.edu.cn/..."
       />
 
       <v-tooltip bottom>
@@ -176,7 +176,7 @@ export default Vue.extend({
     },
 
     encryptUrl (url: string): string {
-      return `https://webvpn.bit.edu.cn${convert(url)}`
+      return `http://webvpn.swu.edu.cn${convert(url)}`
     },
 
     clearInputUrl (): void {
@@ -185,7 +185,7 @@ export default Vue.extend({
 
     copy (value: string): void {
       if (this.webvpnUrl === '') {
-        value = 'https://webvpn.bit.edu.cn'
+        value = 'http://webvpn.swu.edu.cn'
         this.snackbarCopyNote = 'Default WEBVPN URL copied!'
       }
       console.log('Copied value:', value)
