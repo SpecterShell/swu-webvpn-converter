@@ -14,7 +14,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/spencerwooo/bit-webvpn-converter"
+        href="https://github.com/SpecterShell/swu-webvpn-converter"
         target="_blank"
         text
       >
