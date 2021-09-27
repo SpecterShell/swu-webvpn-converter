@@ -147,20 +147,64 @@ export default Vue.extend({
 
     commonResources: [
       {
-        name: '本科生教务系统',
-        url: 'jwms.bit.edu.cn'
+        name: '办事大厅',
+        url: 'http://i.swu.edu.cn'
       },
       {
-        name: '学生评教系统',
-        url: 'pj.bit.edu.cn'
+        name: '教务系统',
+        url: 'http://jw.swu.edu.cn'
       },
       {
-        name: '软件正版化平台',
-        url: 'ca.bit.edu.cn'
+        name: '馆藏书刊查询系统',
+        url: 'http://opac.lib.swu.edu.cn:8080'
       },
       {
-        name: '中国知网',
-        url: 'www.cnki.net'
+        name: '校园卡查询系统',
+        url: 'http://ecard.swu.edu.cn'
+      },
+      {
+        name: '学生用能查询系统',
+        url: 'http://211.83.23.198'
+      },
+      {
+        name: '校园网自助服务系统',
+        url: 'http://service2.swu.edu.cn/selfservice/'
+      },
+      {
+        name: '网费充值',
+        url: 'http://service.swu.edu.cn/fee/user_cz.jsp'
+      },
+      {
+        name: '综合考评和评优评奖系统',
+        url: 'http://ehallxgdt.swu.edu.cn'
+      },
+      {
+        name: '本科毕业生就业方案编制系统',
+        url: 'http://222.198.125.203/jyzx/'
+      },
+      {
+        name: '“贯通式”心理育人智慧平台',
+        url: 'http://xljk.swu.edu.cn'
+      },
+      {
+        name: '安全教育考试系统',
+        url: 'http://aqjy.swu.edu.cn'
+      },
+      {
+        name: '实验室安全考试系统',
+        url: 'http://172.18.5.26'
+      },
+      {
+        name: '名著阅读选书系统',
+        url: 'http://222.198.126.215:8080/mzyd/'
+      },
+      {
+        name: '软件正版化服务平台',
+        url: 'http://ms.swu.edu.cn'
+      },
+      {
+        name: '计信院实验报告上传FTP',
+        url: 'http://172.18.5.102'
       }
     ]
   }),
