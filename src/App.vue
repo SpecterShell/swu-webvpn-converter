@@ -24,9 +24,7 @@
     </v-app-bar>
 
     <v-container fill-height>
-      <v-row justify="center">
         <Converter />
-      </v-row>
     </v-container>
 
     <v-footer padless>
