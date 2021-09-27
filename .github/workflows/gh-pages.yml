@@ -10,13 +10,20 @@ on:
     branches: [ master ]
 
 jobs:
-  build_vue:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.0
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install
+      run: npm install
+    - name: Build
+      run: npm run build
+    - name: Deploy
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v2
       with:
-        username: 'SpecterShell'
-        reponame: 'swu-webvpn-converter'
-        token: ${{ secrets.ACCESS_TOKEN }}
+        target_branch: gh-pages
+        build_dir: dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
