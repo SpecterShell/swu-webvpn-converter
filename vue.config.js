@@ -5,5 +5,6 @@ module.exports = {
       title: 'SWU WEBVPN Converter'
     }
   },
-  transpileDependencies: ['vuetify']
+  transpileDependencies: ['vuetify'],
+  publicPath: process.env.NODE_ENV === 'production' ? '/swu-webvpn-converter/' : '/'
 }
