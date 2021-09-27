@@ -1,6 +1,6 @@
 <template>
-  <v-row justify="space-between" align="center" class="mx-4 mt-12 mt-lg-0 mt-xl-0"  >
-    <v-col lg="6" xl="6" cols="12"  >
+  <v-row justify="space-between" align="center" class="mx-4 mt-12 mt-lg-0 mt-xl-0">
+    <v-col lg="6" xl="6" cols="12">
       <v-row class="text-h4 mb-4">
         <h4>
           <v-icon class="mr-2" color="primary">mdi-link-variant</v-icon
@@ -74,7 +74,7 @@
     </v-col>
 
     <v-col lg="5" xl="5" cols="12">
-      <v-row >
+      <v-row>
         <p class="text--secondary text-uppercase">Common resources</p>
       </v-row>
 
