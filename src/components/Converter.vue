@@ -152,7 +152,7 @@ export default Vue.extend({
       },
       {
         name: '教务系统',
-        url: 'http://jw.swu.edu.cn'
+        url: 'http://jw.swu.edu.cn/sso/zllogin'
       },
       {
         name: '馆藏书刊查询系统',
